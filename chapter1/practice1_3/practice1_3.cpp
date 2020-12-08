@@ -25,10 +25,10 @@ bool validate_row4(int row0, int row1) {
 
 int main() {
     int row0 = 20;
-    int row1 = 10;
+    int row1 = 9;
 
     for (;;) {
-        if (row1 == 100) {
+        if (row1 == 99) {
             row0++;
             row1 = 10;
         } else {
