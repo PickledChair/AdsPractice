@@ -65,3 +65,5 @@ with makefile_path.open('w') as f:
 with gitignore_path.open('w') as f:
     f.write(gitignore_content)
 
+print("complete!")
+
