@@ -21,7 +21,7 @@ int main() {
                 start = i+1;
             }
             if (i == N-2) {
-                buf = std::stoi(S.substr(start, N));
+                buf = std::stoi(S.substr(start, N - start));
                 std::cout << buf << std::endl;
                 sum += buf;
             }
