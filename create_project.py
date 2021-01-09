@@ -45,10 +45,10 @@ cpp_content = "#include <iostream>\n#include <vector>\n"
 
 # Makefileのパスと内容
 makefile_path = project_dir / "Makefile"
-makefile_content = "CXXFLAGS = -std=c++11\n\n"
-    + project_name + ": " + project_name + ".cpp\n\n"
-    + "run: " + project_name + "\n\t./$<\n\n"
-    + "clean:\n\t-rm " + project_name + "\n\n"
+makefile_content = "CXXFLAGS = -std=c++11\n\n"\
+    + project_name + ": " + project_name + ".cpp\n\n"\
+    + "run: " + project_name + "\n\t./$<\n\n"\
+    + "clean:\n\t-rm " + project_name + "\n\n"\
     + ".PHONY: clean\n"
 
 # .gitignoreのパスと内容
