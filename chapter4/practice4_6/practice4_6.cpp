@@ -16,19 +16,18 @@ bool func(int i, int w, const vector<int>& a, vector<vector<int>>& memo) {
 
     // a[i - 1] を選ばない場合
     if (func(i - 1, w, a, memo)) {
-        memo.at(i - 1).at(w) = 1;
+        memo.at(i).at(w) = 1;
         return true;
     };
 
     // a[i - 1] を選ぶ場合
     if (func(i - 1, w - a[i - 1], a, memo)) {
-        memo.at(i - 1).at(w - a[i - 1]) = 1;
+        memo.at(i).at(w) = 1;
         return true;
     }
 
     // どちらも false の場合は false
-    memo.at(i - 1).at(w) = 0;
-    memo.at(i - 1).at(w - a[i - 1]) = 0;
+    memo.at(i).at(w) = 0;
     return false;
 }
 
