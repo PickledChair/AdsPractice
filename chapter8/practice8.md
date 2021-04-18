@@ -63,7 +63,7 @@ void insert(Node* v, Node* p = nil) {
 }
 ```
 
-`cnt` 変数を通じて連結リストのサイズを O(1) で得ることができる。ノードの削除時には `--cnt` とすればよい。双方向連結リストにおいても同様である。
+`cnt` 変数を通じて連結リストのサイズを O(1) で得ることができる。ノードの削除時には `--cnt` とすればよい。双方向連結リストにおいても同様である（[コード例](https://github.com/PickledChair/AdsPractice/blob/main/chapter8/practice8_3/practice8_3.cpp)）。
 
 
 
