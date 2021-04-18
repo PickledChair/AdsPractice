@@ -87,3 +87,4 @@ void erase(Node* v) {
 }
 ```
 
+（[コード例](https://github.com/PickledChair/AdsPractice/blob/main/chapter8/practice8_4/practice8_4.cpp)）
