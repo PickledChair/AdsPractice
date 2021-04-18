@@ -3,8 +3,6 @@
 #include <algorithm>
 using namespace std;
 
-// 注：公式解答が未公開のため、正誤は未確認
-
 int main() {
     // 入力
     int N;
