@@ -9,6 +9,7 @@ int main() {
     cin >> N >> M;
     vector<long long> a(N);
     for (int i = 0; i < N; ++i) cin >> a[i];
+    a.push_back(0);
 
     vector<long long> s;
     for (int i = 0; i < N; ++i) {
